@@ -1,0 +1,34 @@
+﻿Pessoa pessoa1 = new Pessoa("Jose", 100);
+Pessoa pessoa2 = new Pessoa("Maria", 60);
+Pessoa pessoa3 = new Pessoa("Romildo", 75);
+
+Elevador elevador = new Elevador(15, 170);
+
+elevador.Abrir();
+elevador.AdicionarPessoa(pessoa1);
+elevador.AdicionarPessoa(pessoa2);
+elevador.Fechar();
+elevador.Subir();
+elevador.Subir();
+elevador.Subir();
+elevador.Subir();
+elevador.Subir();
+elevador.Subir();
+elevador.Subir();
+elevador.Subir();
+elevador.Subir();
+elevador.Subir();
+elevador.Subir();
+elevador.Subir();
+elevador.Subir();
+elevador.Subir();
+elevador.Subir();
+elevador.Subir();
+elevador.Subir();
+elevador.Subir();
+elevador.Subir();
+elevador.Abrir();
+elevador.RemoverPessoa(pessoa2);
+elevador.AdicionarPessoa(pessoa3);
+elevador.Fechar();
+elevador.Subir();
